@@ -1,0 +1,165 @@
+/*html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* Button Styles /
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #128c76;
+  text-decoration: none;
+}
+*/
+/* Gradient Color Combos */
+/* Gradient Color Combos */
+:root {
+  --primary-color: linear-gradient(45deg, #3498db, #2ecc71); /* Blue to Green */
+  --highlighted-text-color: #f39c12; /* Orange */
+  --text-color: #fff; /* White */
+  --background-color: #f2f2f2; /* Light Gray */
+  --button-hover-color: linear-gradient(45deg, #e74c3c, #f39c12); /* Red to Orange */
+  --button-background: linear-gradient(45deg, #3498db, #2ecc71); /* Blue to Green */
+  --button-text: #fff; /* White */
+}
+
+/* Common Styles */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: var(--background-color);
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background: var(--primary-color);
+  color: var(--text-color); /* Text color is white */
+}
+
+.navbar-nav li a:hover {
+  background: var(--highlighted-text-color);
+  color: var(--text-color); /* Text color is white */
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: var(--primary-color);
+  color: var(--background-color);
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: var(--background-color);
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--button-background);
+  color: var(--button-text);
+  text-decoration: none; /* Remove text underline */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background: var(--button-hover-color);
+  text-decoration: none; /* Remove text underline on hover */
+}
+
+/* Additional Styles */
+/* Subtle Highlight for Text */
+.highlight {
+  background: #e5e5e5; /* Light Gray */
+}
+
+/* Warning Text */
+.delete {
+  color: #e74c3c; /* Red */
+}
+
+/* Success Text */
+.compose{
+  color: #2ecc71; /* Green */
+}
+
+/* Information Text */
+.Readmore {
+  color: #3498db; /* Blue */
+}
+
+/* Rounded Corners */
+.rounded {
+  border-radius: 10px;
+}
